@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping with `@vanduo-oss/vwl-hybrid-search`.
+Thanks for helping with `@wwl/wwl-hybrid-search`.
 
 ## Prerequisites
 

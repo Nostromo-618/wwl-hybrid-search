@@ -3,13 +3,13 @@
 ## Purpose
 
 Package scaffold and Labs-sibling metadata for
-`@vanduo-oss/vwl-hybrid-search` (not a public npm package).
+`@wwl/wwl-hybrid-search` (not a public npm package).
 
 ## Requirements
 
 ### Requirement: package-metadata
 
-The package MUST declare `@vanduo-oss/vwl-hybrid-search` with dual ESM/CJS
+The package MUST declare `@wwl/wwl-hybrid-search` with dual ESM/CJS
 exports and typed entry points. It MUST be a Labs sibling repo
 (`"private": true`) and MUST NOT declare `publishConfig` for public npm.
 
@@ -23,7 +23,7 @@ exports and typed entry points. It MUST be a Labs sibling repo
 
 - **GIVEN** package version `0.2.0`
 - **WHEN** smoke tests run
-- **THEN** `VWL_HYBRID_SEARCH_VERSION` equals `0.2.0`
+- **THEN** `WWL_HYBRID_SEARCH_VERSION` equals `0.2.0`
 
 ### Requirement: no remote CI
 

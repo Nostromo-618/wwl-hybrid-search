@@ -3,7 +3,7 @@
 ## Purpose
 
 Defines dual QA gates and release documentation for
-`@vanduo-oss/vwl-hybrid-search`. `pnpm test:ci` stays free of mandatory heavy
+`@wwl/wwl-hybrid-search`. `pnpm test:ci` stays free of mandatory heavy
 semantic model downloads.
 
 ## Requirements

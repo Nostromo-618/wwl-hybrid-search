@@ -2,7 +2,7 @@ export {
   HybridSearch,
   cosineSimilarity,
   rankBySimilarity,
-  VWL_HYBRID_SEARCH_VERSION,
+  WWL_HYBRID_SEARCH_VERSION,
   DEFAULT_DOCS_BASE_URL,
 } from './hybrid-search.js';
 

@@ -3,12 +3,12 @@
 ## Supported versions
 
 Security fixes are accepted for the latest `0.1.x` on the default branch of
-`@vanduo-oss/vwl-hybrid-search` (sibling `link:` consumption; not published on npm).
+`@wwl/wwl-hybrid-search` (sibling `link:` consumption; not published on npm).
 
 ## Reporting a vulnerability
 
 Please report security issues privately via GitHub Security Advisories on
-[vanduo-oss/vwl-hybrid-search](https://github.com/vanduo-oss/vwl-hybrid-search)
+[vanduo-oss/wwl-hybrid-search](https://github.com/vanduo-oss/wwl-hybrid-search)
 or by emailing the maintainers listed on the org profile.
 
 Do **not** open a public issue for vulnerabilities that could expose hosts to

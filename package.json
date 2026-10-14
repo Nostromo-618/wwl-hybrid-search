@@ -1,21 +1,21 @@
 {
-  "name": "@vanduo-oss/vwl-hybrid-search",
+  "name": "@wwl/wwl-hybrid-search",
   "version": "0.2.0",
   "private": true,
-  "description": "Vanduo Web Labs headless hybrid fuzzy+semantic search (VwlHybridSearch)",
+  "description": "Weekend Web Labs headless hybrid fuzzy+semantic search (WwlHybridSearch)",
   "type": "module",
-  "homepage": "https://github.com/nostromo-618/vwl-hybrid-search#readme",
+  "homepage": "https://github.com/nostromo-618/wwl-hybrid-search#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nostromo-618/vwl-hybrid-search.git"
+    "url": "git+https://github.com/nostromo-618/wwl-hybrid-search.git"
   },
   "bugs": {
-    "url": "https://github.com/nostromo-618/vwl-hybrid-search/issues"
+    "url": "https://github.com/nostromo-618/wwl-hybrid-search/issues"
   },
   "license": "MIT",
   "author": "nostromo-618",
   "keywords": [
-    "vanduo",
+    "wwl",
     "search",
     "hybrid",
     "fuzzy",
@@ -48,7 +48,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "vwl-hybrid-index": "./scripts/vwl-hybrid-index.mjs"
+    "wwl-hybrid-index": "./scripts/wwl-hybrid-index.mjs"
   },
   "scripts": {
     "build": "node scripts/clean-dist.mjs && vite build && tsc -p tsconfig.build.json",

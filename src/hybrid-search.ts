@@ -1,5 +1,5 @@
 /**
- * @vanduo-oss/vwl-hybrid-search — VwlHybridSearch headless engine.
+ * @wwl/wwl-hybrid-search — WwlHybridSearch headless engine.
  * Fuzzy (Fuse.js) + semantic (Transformers.js) hybrid search.
  * Zero runtime npm dependencies; libraries load from CDN unless injectors are provided.
  */
@@ -24,7 +24,7 @@ const CDN = {
   ],
 };
 
-export const VWL_HYBRID_SEARCH_VERSION = '0.2.0';
+export const WWL_HYBRID_SEARCH_VERSION = '0.2.0';
 
 export const DEFAULT_DOCS_BASE_URL = 'https://vd3.vanduo.dev';
 
@@ -228,7 +228,7 @@ type Extractor = ((
 };
 
 export class HybridSearch {
-  static VERSION = VWL_HYBRID_SEARCH_VERSION;
+  static VERSION = WWL_HYBRID_SEARCH_VERSION;
   private _corpusHash?: string;
   private _disposed = false;
 

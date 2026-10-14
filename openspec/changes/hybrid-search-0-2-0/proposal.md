@@ -15,17 +15,17 @@ single source of truth for hybrid search.
 - Adaptive confidence cutoff in `mergeResults` (default on; `confidence: false` to disable)
 - `maxSemanticResults` option replacing hardcoded `.slice(0, 10)`
 - Model mismatch warning when `vectors.json.model` differs from active `modelName`
-- Config-driven `vwl-hybrid-index` CLI for building index + vectors
+- Config-driven `wwl-hybrid-index` CLI for building index + vectors
 
 ## Capabilities
 
 ### New Capabilities
 
-- `vwl-hybrid-index`: CLI indexer with preset-aware embeddings
+- `wwl-hybrid-index`: CLI indexer with preset-aware embeddings
 
 ### Modified Capabilities
 
-- `vwl-hybrid-search`: presets, v4 dtype, prefixes, confidence, maxSemanticResults
+- `wwl-hybrid-search`: presets, v4 dtype, prefixes, confidence, maxSemanticResults
 
 ## Impact
 
